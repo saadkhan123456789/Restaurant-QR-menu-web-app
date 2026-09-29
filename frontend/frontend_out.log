@@ -1,0 +1,56 @@
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+- Environments: .env.local
+✓ Ready in 526ms
+✓ Running next.config.ts took 44ms
+
+ GET /menu?table=5 200 in 3.0s (next.js: 2.8s, application-code: 216ms)
+[browser] Image with src "/menu-images/classic-chicken-burger.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /menu?table=5 200 in 35ms (next.js: 6ms, application-code: 30ms)
+[browser] Image with src "/menu-images/classic-chicken-burger.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /cart?table=5 200 in 407ms (next.js: 314ms, application-code: 93ms)
+ GET /checkout?table=5 200 in 174ms (next.js: 141ms, application-code: 33ms)
+ GET /admin/login 200 in 174ms (next.js: 131ms, application-code: 44ms)
+ GET /admin/dashboard 200 in 152ms (next.js: 131ms, application-code: 21ms)
+ GET /admin/orders 200 in 169ms (next.js: 132ms, application-code: 37ms)
+ GET /admin/kitchen 200 in 184ms (next.js: 144ms, application-code: 40ms)
+ GET /admin/qr 200 in 253ms (next.js: 190ms, application-code: 63ms)
+ GET /menu?table=5 200 in 70ms (next.js: 3ms, application-code: 67ms)
+[browser] Image with src "/menu-images/classic-chicken-burger.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /menu?table=5 200 in 37ms (next.js: 5ms, application-code: 32ms)
+[browser] Image with src "/menu-images/beef-cheese-burger.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /menu-images/does-not-exist.jpg 404 in 274ms (next.js: 243ms, application-code: 31ms)
+⨯ The requested resource isn't a valid image for /menu-images/does-not-exist.jpg received null
+ GET /menu?table=5 200 in 61ms (next.js: 5ms, application-code: 56ms)
+[browser] Image with src "/menu-images/classic-chicken-burger.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /admin 404 in 65ms (next.js: 6ms, application-code: 58ms)
+ GET /admin/login 200 in 45ms (next.js: 5ms, application-code: 41ms)
+ GET /admin/login 200 in 51ms (next.js: 8ms, application-code: 43ms)
+ GET /menu?table=5 200 in 22ms (next.js: 3ms, application-code: 19ms)
+✓ Compiled in 60ms
+ GET /admin/login 200 in 64ms (next.js: 5ms, application-code: 59ms)
+ GET /menu?table=5 200 in 38ms (next.js: 4ms, application-code: 34ms)
+✓ Compiled in 39ms
+ GET / 200 in 147ms (next.js: 118ms, application-code: 30ms)
+ GET /admin/login 200 in 34ms (next.js: 3ms, application-code: 31ms)
+ GET /cart?table=5 200 in 29ms (next.js: 5ms, application-code: 24ms)
+ GET /checkout?table=5 200 in 29ms (next.js: 7ms, application-code: 21ms)
+ GET /order/5 200 in 1255ms (next.js: 1215ms, application-code: 40ms)
+ GET /admin/dashboard 200 in 35ms (next.js: 5ms, application-code: 30ms)
+ GET /admin/orders 200 in 35ms (next.js: 4ms, application-code: 31ms)
+ GET /admin/kitchen 200 in 37ms (next.js: 5ms, application-code: 32ms)
+ GET /admin 404 in 112ms (next.js: 11ms, application-code: 101ms)
+ GET /admin/login 200 in 89ms (next.js: 6ms, application-code: 84ms)
+ GET /admin/dashboard 200 in 30ms (next.js: 5ms, application-code: 25ms)
+ GET /admin/orders 200 in 23ms (next.js: 4ms, application-code: 19ms)
+ GET /admin/dashboard 200 in 42ms (next.js: 8ms, application-code: 35ms)
+ GET /admin/orders 200 in 48ms (next.js: 3ms, application-code: 45ms)
+ GET /admin/kitchen 200 in 34ms (next.js: 3ms, application-code: 31ms)
+ GET /admin/qr 200 in 46ms (next.js: 7ms, application-code: 38ms)
+ GET /admin/qr 200 in 40ms (next.js: 10ms, application-code: 30ms)
