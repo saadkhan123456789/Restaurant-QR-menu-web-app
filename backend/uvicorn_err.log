@@ -1,8 +1,4 @@
-INFO:     Started server process [16984]
+INFO:     Started server process [8988]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     10.10.1.51:49988 - "WebSocket /" 403
-INFO:     connection rejected (403 Forbidden)
-INFO:     10.10.1.51:56492 - "WebSocket /" 403
-INFO:     connection rejected (403 Forbidden)
