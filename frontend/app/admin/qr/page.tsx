@@ -19,7 +19,7 @@ export default function QrPage() {
   useEffect(() => {
     const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/tables`)
+    fetch(`/api/tables`)
       .then((res) => res.json())
       .then(async (data: { table_number: number }[]) => {
         const generated = await Promise.all(

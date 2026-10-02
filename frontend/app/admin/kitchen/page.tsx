@@ -111,7 +111,7 @@ export default function KitchenPage() {
   const [actionError, setActionError] = useState<string | null>(null);
 
   const fetchOrders = useCallback(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/orders`)
+    fetch(`/api/orders`)
       .then((res) => res.json())
       .then((data) => setOrders(data))
       .catch(() => {});
@@ -127,7 +127,7 @@ export default function KitchenPage() {
     setActionError(null);
     try {
       const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/orders/${orderId}/status`,
+        `/api/orders/${orderId}/status`,
         {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },

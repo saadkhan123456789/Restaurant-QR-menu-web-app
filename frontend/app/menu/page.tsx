@@ -68,7 +68,7 @@ function MenuContent() {
     if (!table) return;
 
     setTableStatus("checking");
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/tables/${table}`)
+    fetch(`/api/tables/${table}`)
       .then((res) => {
         if (!res.ok) throw new Error("invalid table");
         return res.json();
@@ -80,7 +80,7 @@ function MenuContent() {
   useEffect(() => {
     if (!table || tableStatus !== "valid") return;
 
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/menu`)
+    fetch(`/api/menu`)
       .then((res) => res.json())
       .then((data) => {
         setCategories(data);

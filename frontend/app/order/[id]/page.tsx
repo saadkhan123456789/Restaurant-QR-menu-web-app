@@ -45,7 +45,7 @@ export default function OrderConfirmationPage() {
   useEffect(() => {
     if (!id) return;
 
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/orders/${id}`)
+    fetch(`/api/orders/${id}`)
       .then((res) => {
         if (!res.ok) throw new Error("not found");
         return res.json();
