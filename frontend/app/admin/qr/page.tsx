@@ -17,7 +17,11 @@ export default function QrPage() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+    // Prefer an explicitly configured app URL (e.g. a custom domain), but
+    // never fall back to a hardcoded localhost in production - derive it
+    // from the page's own origin instead, which is always correct for
+    // wherever this is actually being served from.
+    const appUrl = process.env.NEXT_PUBLIC_APP_URL || window.location.origin;
 
     fetch(`/api/tables`)
       .then((res) => res.json())
