@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useRequireAdmin } from "@/lib/auth";
+import AdminNavbar from "@/components/AdminNavbar";
 
 type OrderItem = {
   menu_item_id: number;
@@ -156,6 +157,7 @@ export default function KitchenPage() {
 
   return (
     <main className="min-h-screen bg-gray-100 pb-10">
+      <AdminNavbar />
       <header className="bg-white shadow-sm px-6 py-5">
         <h1 className="text-3xl font-extrabold text-gray-900">KITCHEN</h1>
       </header>

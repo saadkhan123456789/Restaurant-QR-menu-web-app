@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useRequireAdmin } from "@/lib/auth";
+import AdminNavbar from "@/components/AdminNavbar";
 
 type OrderItem = {
   menu_item_id: number;
@@ -116,6 +117,7 @@ export default function CounterOrdersPage() {
   return (
     <>
       <main className="min-h-screen bg-gray-100 pb-10 print:hidden">
+        <AdminNavbar />
         <header className="bg-white shadow-sm px-6 py-4">
           <h1 className="text-2xl font-bold text-gray-900">RESTAURANT</h1>
           <p className="text-gray-500">Counter Orders</p>

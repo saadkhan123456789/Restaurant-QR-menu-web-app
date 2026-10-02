@@ -42,6 +42,7 @@ function ItemImage({ src, alt }: { src: string | null; alt: string }) {
         src={src}
         alt={alt}
         fill
+        unoptimized
         sizes="(max-width: 640px) 100vw, 400px"
         className="object-cover"
         onError={() => setFailed(true)}

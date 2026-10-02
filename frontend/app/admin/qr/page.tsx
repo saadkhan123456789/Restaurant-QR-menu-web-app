@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import QRCode from "qrcode";
 import { useRequireAdmin } from "@/lib/auth";
+import AdminNavbar from "@/components/AdminNavbar";
 
 type TableQR = {
   tableNumber: number;
@@ -50,6 +51,7 @@ export default function QrPage() {
 
   return (
     <main className="min-h-screen bg-gray-100 pb-10 print:bg-white">
+      <AdminNavbar />
       <header className="flex items-center justify-between bg-white shadow-sm px-6 py-5 print:hidden">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">
